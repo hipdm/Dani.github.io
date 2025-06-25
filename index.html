@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Currículum - Daniela Medina Hipólito</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f1f3f5;
+    }
+    .card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border: none;
+      margin-bottom: 2rem;
+    }
+    .card-header {
+      font-weight: bold;
+      font-size: 1.2rem;
+      background-color: #e9ecef;
+    }
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #dee2e6;
+      margin-top: -90px;
+      background-color: white;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 20px 0;
+    }
+    .contact-info i {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="bg-dark py-5 mb-5 text-white text-center">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Daniela Medina Hipólito</h1>
+      <p class="lead">Estudiante de preparatoria interesada en la carrera de medicina</p>
+    </div>
+  </header>
+
+  <!-- Imagen de perfil -->
+  <div class="container text-center mb-4">
+    <img src="https://via.placeholder.com/180" alt="Foto de perfil" class="profile-img shadow">
+  </div>
+
+  <div class="container">
+    <!-- Datos personales -->
+    <div class="card">
+      <div class="card-header">Datos Personales</div>
+      <div class="card-body">
+        <p><strong>Nombre:</strong> Daniela Medina Hipólito </p>
+        <p><strong>Fecha de nacimiento:</strong> 18/02/2007</p>
+        <p><strong>Dirección:</strong> Laureles </p>
+      </div>
+    </div>
+
+    <!-- Contacto -->
+    <div class="card">
+      <div class="card-header">Contacto</div>
+      <div class="card-body contact-info">
+        <p><i class="bi bi-envelope"></i><strong>Email:</strong> dm4956458@gmail.com</p>
+        <p><i class="bi bi-telephone"></i><strong>Teléfono:</strong> +52 56 17 44 25 32</p>
+      </div>
+    </div>
+
+    <!-- Objetivo Profesional -->
+    <div class="card">
+      <div class="card-header">Objetivo Profesional</div>
+      <div class="card-body">
+        Soy estudiante de preparatoria con interés en medicina, me gustaría estudiar y aprender más sobre la carrera.
+      </div>
+    </div>
+
+    <!-- Formación Académica -->
+    <div class="card">
+      <div class="card-header">Formación Académica</div>
+      <div class="card-body">
+        <p><strong>Escuela:</strong> Escuela Preparatoria Anexa a la Normal</p>
+        <p><strong>Periodo:</strong> 2022 - 2025 (En curso)</p>
+      </div>
+    </div>
+
+    <!-- Experiencia Laboral -->
+    <div class="card">
+      <div class="card-header">Experiencia Laboral</div>
+      <div class="card-body">
+        Laboré como bordadora con mis abuelitos. 
+      </div>
+    </div>
+
+    <!-- Habilidades -->
+    <div class="card">
+      <div class="card-header">Habilidades</div>
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Manejo de computadora</li>
+          <li class="list-group-item">Diseño</li>
+          <li class="list-group-item">Conocimientos básicos</li>
+          <li class="list-group-item">Trabajo en equipo</li>
+          <li class="list-group-item">Responsabilidad, puntualidad</li>
+          <li class="list-group-item">Gestión de redes sociales y edición de videos</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Más Sobre Mí -->
+    <div class="card">
+      <div class="card-header">Más Sobre Mí</div>
+      <div class="card-body">
+        <div class="accordion" id="accordionExample">
+          <!-- Accordion Items -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                Materias que me gustan
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Química, Biología, Diseño Digital 
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                Materias que no me gustan
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Matemáticas, Fisica, Geografía.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                Escuelas que me llaman la atención
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                UNAM, IPN, UAEM.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                Tour: "Viajar a Corea del Sur"
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Me gustaría viajar a un lugar que siempre me ha gustado y donde pueda experimentar muchas cosas.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                Hoy
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Actualmente estudio la preparatoria y me estoy preparando para entrar a la carrera que me gusta.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Pie de página -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Daniela Medina Hipólito - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+<style>html{
+ color:darkviolet;
+ font-size:25px;
+ font-weight:600;
+}
+</style><script>/*Here write your javascript code*/
+</script></html>
